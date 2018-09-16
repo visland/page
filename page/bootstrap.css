@@ -947,7 +947,7 @@ img {
   width: 100% \9;
   max-width: 100%;
   height: auto;
-  padding: 4px;
+  padding: 1px;
   line-height: 1.42857143;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -1742,8 +1742,11 @@ pre code {
   }
 }
 @media (min-width: 992px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-13 {
     float: left;
+  }
+  .col-md-13 {
+    width: 10%;
   }
   .col-md-12 {
     width: 100%;
@@ -1752,7 +1755,7 @@ pre code {
     width: 91.66666667%;
   }
   .col-md-10 {
-    width: 83.33333333%;
+    width: 14%;
   }
   .col-md-9 {
     width: 75%;
@@ -1767,16 +1770,16 @@ pre code {
     width: 50%;
   }
   .col-md-5 {
-    width: 41.66666667%;
+    width: 39%;
   }
   .col-md-4 {
-    width: 33.33333333%;
+    width: 33.3333%;
   }
   .col-md-3 {
-    width: 25%;
+    width: 45%;
   }
   .col-md-2 {
-    width: 16.66666667%;
+    width: 20%;
   }
   .col-md-1 {
     width: 8.33333333%;

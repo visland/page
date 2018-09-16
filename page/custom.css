@@ -7,7 +7,14 @@ margin-left: 30px;
 .headings {
 font-family: "nimbus-sans", sans-serif;
 font-weight: bold;
+font-size: 1.2em;
 }
+
+.subheadings {
+  font-family: "nimbus-sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  }
 
 body a {
 text-decoration:  none; 	border-bottom: 1px dotted; color:black;
