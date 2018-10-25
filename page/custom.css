@@ -45,6 +45,11 @@ font-weight: bold;
 font-weight: 700;
 }
 
+#emphasize {
+  color: #53bbce;
+  font-style: bold;
+}
+
 .nav a{
 font-family: "nimbus-sans", sans-serif;
 font-weight: bold;
